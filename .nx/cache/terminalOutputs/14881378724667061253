@@ -1,0 +1,6 @@
+Creating an optimized production build...
+[31mFailed to compile.[39m
+[31m[39m
+[eslint] Plugin "react" was conflicted between "package.json » eslint-config-react-app » /Users/sangwon/Desktop/ds/.yarn/__virtual__/eslint-config-react-app-virtual-490fdb00e5/0/cache/eslint-config-react-app-npm-6.0.0-c5908e735c-b265852455.zip/node_modules/eslint-config-react-app/base.js" and "BaseConfig » /Users/sangwon/Desktop/ds/.yarn/__virtual__/eslint-config-react-app-virtual-3ca4b8de38/0/cache/eslint-config-react-app-npm-7.0.1-78bab43841-a67e082180.zip/node_modules/eslint-config-react-app/base.js".
+
+

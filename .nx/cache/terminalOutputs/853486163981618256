@@ -1,0 +1,11 @@
+Creating an optimized production build...
+[31mFailed to compile.[39m
+[31m[39m
+[eslint] Failed to load plugin 'flowtype' declared in 'package.json » eslint-config-react-app': react-scripts tried to access eslint-plugin-flowtype, but it isn't declared in its dependencies; this makes the require call ambiguous and unsound.
+Required package: eslint-plugin-flowtype
+Required by: react-scripts@virtual:f8ef086eb8f8da29edd8cad4652bff6f85c6a5fd2d09e024f05d8790c8c2b2c46943ddbb1c8fd27c9f2a9d4ddd840dd696c7edfa5d9fc8163e5cb2d1fa386505#npm:5.0.1 (via /Users/sangwon/Desktop/ds/.yarn/__virtual__/react-scripts-virtual-32277cd2d9/0/cache/react-scripts-npm-5.0.1-d06bd2d5ad-92afa2f245.zip/node_modules/react-scripts/config/)
+
+Require stack:
+- /Users/sangwon/Desktop/ds/.yarn/__virtual__/react-scripts-virtual-32277cd2d9/0/cache/react-scripts-npm-5.0.1-d06bd2d5ad-92afa2f245.zip/node_modules/react-scripts/config/__placeholder__.js
+
+

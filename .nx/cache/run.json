@@ -1,0 +1,32 @@
+{
+  "run": {
+    "command": "nx build test",
+    "startTime": "2024-06-12T05:29:34.484Z",
+    "endTime": "2024-06-12T05:29:40.741Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "@fastcampus/themes:build",
+      "target": "build",
+      "projectName": "@fastcampus/themes",
+      "hash": "5431867670837283875",
+      "startTime": "2024-06-12T05:29:34.491Z",
+      "endTime": "2024-06-12T05:29:34.512Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
+      "taskId": "test:build",
+      "target": "build",
+      "projectName": "test",
+      "hash": "2268202092782547455",
+      "startTime": "2024-06-12T05:29:34.515Z",
+      "endTime": "2024-06-12T05:29:40.741Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}
