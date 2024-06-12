@@ -2,7 +2,19 @@
   "version": "6.0",
   "nxVersion": "19.2.3",
   "deps": {
-    "nx": "^19.2.3"
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-json-format": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-storybook": "^0.6.13",
+    "nx": "^19.2.3",
+    "prettier": "^3.0.3"
   },
   "pathMappings": {},
   "nxJsonPlugins": [],
@@ -14,146 +26,77 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".yarnrc.yml",
-        "hash": "14469103622900225788"
+        "file": ".eslintrc.js",
+        "hash": "9307259630857062068"
       },
       {
         "file": ".gitignore",
-        "hash": "10772450634405643175"
+        "hash": "17694331162297959036"
       },
       {
-        "file": "package.json",
-        "hash": "14000616498563461781"
+        "file": ".pnp.cjs",
+        "hash": "14831767631862581440"
       },
       {
         "file": ".pnp.loader.mjs",
         "hash": "15355463833122666013"
       },
       {
-        "file": "nx.json",
-        "hash": "11407025333741270586"
+        "file": ".prettierrc",
+        "hash": "2052412003981761678"
       },
       {
-        "file": ".pnp.cjs",
-        "hash": "18146270546648720889"
+        "file": ".vscode/extensions.json",
+        "hash": "10535867006991962306"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "3345068956483743578"
+      },
+      {
+        "file": ".yarnrc.yml",
+        "hash": "14469103622900225788"
       },
       {
         "file": "README.md",
         "hash": "13795086065175765499"
       },
       {
-        "file": "yarn.lock",
-        "hash": "1918138665556158677"
+        "file": "nx.json",
+        "hash": "11407025333741270586"
       },
       {
-        "file": ".yarn/releases/yarn-3.6.3.cjs",
-        "hash": "10539475581314667"
+        "file": "package.json",
+        "hash": "5956091373216355846"
+      },
+      {
+        "file": "packages/README.md",
+        "hash": "5144328018523696594"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "10176387981518580837"
+      },
+      {
+        "file": "tsconfig.eslint.json",
+        "hash": "4223543546432855631"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "1539625488301244716"
       }
     ],
     "projectFileMap": {
-      "test": [
-        {
-          "file": "services/test/.gitignore",
-          "hash": "5403484524555424706"
-        },
-        {
-          "file": "services/test/README.md",
-          "hash": "17911282315018038361"
-        },
-        {
-          "file": "services/test/package.json",
-          "hash": "13663373822289780038",
-          "deps": [
-            "npm:@emotion/react@11.11.4",
-            "npm:@emotion/styled@11.11.5",
-            "@fastcampus/themes",
-            "npm:@testing-library/jest-dom@5.17.0",
-            "npm:@testing-library/react@13.4.0",
-            "npm:@testing-library/user-event@13.5.0",
-            "npm:@types/jest@27.5.2",
-            "npm:@types/node@16.18.98",
-            "npm:@types/react@18.3.3",
-            "npm:@types/react-dom@18.3.0",
-            "npm:@typescript-eslint/parser@7.13.0",
-            "npm:eslint-config-react-app@6.0.0",
-            "npm:react@18.3.1",
-            "npm:react-dom@18.3.1",
-            "npm:react-scripts@5.0.1",
-            "npm:typescript@4.9.5",
-            "npm:web-vitals@2.1.4"
-          ]
-        },
-        {
-          "file": "services/test/public/favicon.ico",
-          "hash": "2949791817221603359"
-        },
-        {
-          "file": "services/test/public/index.html",
-          "hash": "11360870481142497261"
-        },
-        {
-          "file": "services/test/public/logo192.png",
-          "hash": "7585273181698778288"
-        },
-        {
-          "file": "services/test/public/logo512.png",
-          "hash": "9339365414554387981"
-        },
-        {
-          "file": "services/test/public/manifest.json",
-          "hash": "1447645250373428393"
-        },
-        {
-          "file": "services/test/public/robots.txt",
-          "hash": "2790380794362165217"
-        },
-        {
-          "file": "services/test/src/App.css",
-          "hash": "9396524817288244517"
-        },
-        {
-          "file": "services/test/src/App.tsx",
-          "hash": "16297835214071218795"
-        },
-        {
-          "file": "services/test/src/index.css",
-          "hash": "14056909652331273425"
-        },
-        {
-          "file": "services/test/src/index.tsx",
-          "hash": "1106333969132782809"
-        },
-        {
-          "file": "services/test/src/logo.svg",
-          "hash": "5137778160416929466"
-        },
-        {
-          "file": "services/test/src/react-app-env.d.ts",
-          "hash": "3195158367843515590"
-        },
-        {
-          "file": "services/test/src/reportWebVitals.ts",
-          "hash": "4905365886999342103"
-        },
-        {
-          "file": "services/test/src/setupTests.ts",
-          "hash": "16903885983588411080"
-        },
-        {
-          "file": "services/test/tsconfig.json",
-          "hash": "3664978063588679595"
-        }
-      ],
       "@fastcampus/themes": [
         {
           "file": "packages/themes/build.js",
-          "hash": "3360410996192341793"
+          "hash": "16121972845252905498"
         },
         {
           "file": "packages/themes/package.json",
-          "hash": "11935330242717632435",
+          "hash": "5573808077767972811",
           "deps": [
-            "npm:esbuild@0.16.17",
+            "@fastcampus/esbuild-config",
             "npm:typescript@5.4.5"
           ]
         },
@@ -207,7 +150,24 @@
         },
         {
           "file": "packages/themes/tsconfig.json",
-          "hash": "2762939363115190905"
+          "hash": "1111223403284920705"
+        }
+      ],
+      "@fastcampus/esbuild-config": [
+        {
+          "file": "packages/esbuild-config/README.md",
+          "hash": "6886952344311067916"
+        },
+        {
+          "file": "packages/esbuild-config/index.js",
+          "hash": "12430442924170732485"
+        },
+        {
+          "file": "packages/esbuild-config/package.json",
+          "hash": "830082232465600455",
+          "deps": [
+            "npm:esbuild@0.16.17"
+          ]
         }
       ]
     }

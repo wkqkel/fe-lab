@@ -1,32 +1,32 @@
 {
   "run": {
-    "command": "nx build test",
-    "startTime": "2024-06-12T05:29:34.484Z",
-    "endTime": "2024-06-12T05:29:40.741Z",
+    "command": "nx build @fastcampus/themes",
+    "startTime": "2024-06-12T06:16:22.254Z",
+    "endTime": "2024-06-12T06:16:26.410Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "@fastcampus/themes:build",
+      "taskId": "@fastcampus/esbuild-config:build",
       "target": "build",
-      "projectName": "@fastcampus/themes",
-      "hash": "5431867670837283875",
-      "startTime": "2024-06-12T05:29:34.491Z",
-      "endTime": "2024-06-12T05:29:34.512Z",
+      "projectName": "@fastcampus/esbuild-config",
+      "hash": "2000642385714400768",
+      "startTime": "2024-06-12T06:16:22.259Z",
+      "endTime": "2024-06-12T06:16:22.908Z",
       "params": "",
-      "cacheStatus": "local-cache-hit",
+      "cacheStatus": "cache-miss",
       "status": 0
     },
     {
-      "taskId": "test:build",
+      "taskId": "@fastcampus/themes:build",
       "target": "build",
-      "projectName": "test",
-      "hash": "2268202092782547455",
-      "startTime": "2024-06-12T05:29:34.515Z",
-      "endTime": "2024-06-12T05:29:40.741Z",
+      "projectName": "@fastcampus/themes",
+      "hash": "15494564902371886636",
+      "startTime": "2024-06-12T06:16:22.909Z",
+      "endTime": "2024-06-12T06:16:26.410Z",
       "params": "",
       "cacheStatus": "cache-miss",
-      "status": 1
+      "status": 0
     }
   ]
 }

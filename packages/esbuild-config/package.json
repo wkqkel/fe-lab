@@ -1,0 +1,14 @@
+{
+  "name": "@fastcampus/esbuild-config",
+  "packageManager": "yarn@3.6.3",
+  "dependencies": {
+    "esbuild": "0.16.17"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "build": "echo \"Tada!\""
+  }
+}

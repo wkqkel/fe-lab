@@ -37,10 +37,10 @@ yarn-error.log*
 */node_modules
 
 **/.yarn/*
-*/.yarn
+.yarn
 
 **/.nx/*
-/.nx
+.nx/*
 
 **/dist/*
 dist
